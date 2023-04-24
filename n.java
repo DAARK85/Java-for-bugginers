@@ -49,6 +49,8 @@ public class n {
                                float ne2 = src.nextInt();
                                float ne3 = ne/ne2;
                                System.out.print("Answer : - "+ne3);
+                               System.out.println();
+                               
                                
                                
                             }
