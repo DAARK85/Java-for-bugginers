@@ -40,26 +40,21 @@ public class n {
                             }
                             else if(n==2)
                             {
-                              
-                               System.out.println();
-                               System.out.println("Type the two numbers to devide");
+
+                               System.out.print("Type the first number : - ");
                                
                                // Scanner nr = new Scanner(System.in);
                                int ne = src.nextInt();
+                               System.out.print("Type the second number : - ");
                                int ne2 = src.nextInt();
                                int ne3 = ne/ne2;
-                               System.out.println(ne3);
+                               System.out.print("Answer : - "+ne3);
                                
                                
                             }
                             else if(n==3)
                             {
-                            
-                               System.out.println();
-                               System.out.println("Type any number");
-   
-                               // int y3 = 1;
-   
+                               System.out.println("Type any number");   
                                int y2 = src.nextInt();
                                int x=1 ; 
                                while(x<=y2)
