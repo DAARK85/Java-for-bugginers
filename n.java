@@ -44,10 +44,10 @@ public class n {
                                System.out.print("Type the first number : - ");
                                
                                // Scanner nr = new Scanner(System.in);
-                               int ne = src.nextInt();
+                               float ne = src.nextInt();
                                System.out.print("Type the second number : - ");
-                               int ne2 = src.nextInt();
-                               int ne3 = ne/ne2;
+                               float ne2 = src.nextInt();
+                               float ne3 = ne/ne2;
                                System.out.print("Answer : - "+ne3);
                                
                                
