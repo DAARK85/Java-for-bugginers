@@ -3,22 +3,27 @@ public class n {
     public static void main(String[] args) {
         System.out.println(" This program is only for mathematical calculation  ");
         System.out.println();
-        System.out.println("First type username and password. Then enter 1 for multiply , 2 for devide , 3 for fun");
-        System.out.print("Enter username  & password :- ");
+        System.out.println("First type username and password.");
+        System.out.print("Enter username  :- ");
         Scanner src = new Scanner(System.in);
-        char userN= src.next().charAt(0);
-        int pass = src.nextInt();
+        String userN= src.next();
+        
         String  k =  "krish";
-        int n = src.nextInt();
-        if(userN=='k') 
+        
+        if(userN.equals(k) )
         {
-            // System.out.println("Enter password");
+            System.out.print("Enter password :- ");
+            int pass = src.nextInt();
             if(pass==644680575)
             {
+                System.out.println("You can now run the program");
+                System.out.println();
+                System.out.println("Enter 1 for multiply , 2 for devide , 3 for fun ");
+                int n = src.nextInt();
                         if(n==1)
                 
                             {
-                                System.out.println("You can now run the program");
+                                
                                 System.out.println();
                                 System.out.println("Type the numbers to get its multiple");
                                 Scanner Src1= new Scanner(System.in);
@@ -35,7 +40,7 @@ public class n {
                             }
                             else if(n==2)
                             {
-                               System.out.println("You can now run the program");
+                              
                                System.out.println();
                                System.out.println("Type the two numbers to devide");
                                
@@ -49,7 +54,7 @@ public class n {
                             }
                             else if(n==3)
                             {
-                               System.out.println("You can now run the program");
+                            
                                System.out.println();
                                System.out.println("Type any number");
    
@@ -74,7 +79,7 @@ public class n {
                             }
             }
             else{
-                System.out.println("Please check th readme file for username and password");
+                System.out.println("Please check th readme file for password");
             }
 
                                                 
