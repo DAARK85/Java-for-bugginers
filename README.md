@@ -4,8 +4,7 @@ Java for begginers program
 
 ## Thanks  For Using This Calculating  Program
    This program is maded by Krish 
-   You can contact me at telegram :
-                              Telegram Username:- @DARKDEVILSTORE
+   
 Fell free to contact me
 
 Username : - krish
